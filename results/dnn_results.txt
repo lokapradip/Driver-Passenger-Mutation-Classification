@@ -1,0 +1,11 @@
+BRCA DNN Blind Test Results
+===========================
+Accuracy : 0.7306
+Precision: 0.7400
+Recall   : 0.9063
+F1-score : 0.8148
+ROC-AUC  : 0.7246
+
+Confusion Matrix:
+[[221 333]
+ [ 98 948]]

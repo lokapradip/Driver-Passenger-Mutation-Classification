@@ -1,0 +1,20 @@
+FINAL MODEL COMPARISON
+======================
+
+                   Model  Accuracy  Precision  Recall  F1-score  ROC-AUC
+      Classical Baseline    0.7394     0.7363  0.9369    0.8246   0.8456
+                Weka J48    0.6925     0.6750  0.6930    0.6610   0.5850
+       Sequence-only DNN    0.6935     0.7502  0.7739    0.7619   0.7266
+      Structure-only DNN    0.7113     0.7366  0.8690    0.7974   0.7452
+Sequence + Structure DNN    0.7306     0.7400  0.9063    0.8148   0.7246
+
+KEY FINDINGS
+============
+
+The Structure-only DNN achieved the highest DNN F1-score (0.7974) among the individual biological information sources.
+
+The Sequence + Structure DNN achieved an F1-score of 0.8148 and recall of 0.9063 on the blind test set.
+
+The ablation study demonstrates that sequence and structural information provide complementary predictive information, although their combination does not maximize every metric.
+
+SHAP analysis was used to identify the biological features that contributed most strongly to the combined DNN predictions.

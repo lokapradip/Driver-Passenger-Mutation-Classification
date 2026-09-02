@@ -1,0 +1,24 @@
+BRCA DNN SHAP EXPLAINABILITY
+============================
+
+Number of selected features: 30
+Blind-test samples explained: 200
+
+Top 15 features by mean absolute SHAP value:
+
+                  Feature  Mean_Absolute_SHAP
+           Protein_Length          161.505338
+      Mean_Neighbor_pLDDT            5.087210
+   Delta_Molecular_Weight            2.019827
+          Structure_pLDDT            1.178750
+         Local_Mean_pLDDT            0.712658
+        Neighbor_Count_8A            0.080567
+           Delta_Polarity            0.075605
+        Relative_Position            0.072780
+Mean_Neighbor_Distance_8A            0.011610
+              Global_AA_Q            0.007049
+              Global_AA_C            0.006703
+               Local_AA_S            0.006285
+              Global_AA_T            0.006146
+              Global_AA_V            0.005560
+              Global_AA_M            0.005458

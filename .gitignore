@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+data/raw/
+data/processed/sequences/
+data/processed/structures/
+data/external/
+*.zip
+*.tar.gz
+*.pdb
+*.fasta
+*.pt
+*.joblib

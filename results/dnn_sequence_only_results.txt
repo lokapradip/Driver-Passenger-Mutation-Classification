@@ -1,0 +1,11 @@
+BRCA Sequence-Only DNN
+======================
+Accuracy : 0.6935
+Precision: 0.7502
+Recall   : 0.7739
+F1-score : 0.7619
+ROC-AUC  : 0.7266
+
+Confusion Matrix:
+[[336 270]
+ [237 811]]

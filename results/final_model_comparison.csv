@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1-score,ROC-AUC
+Classical Baseline,0.7394,0.7363,0.9369,0.8246,0.8456
+Weka J48,0.6925,0.675,0.693,0.661,0.585
+Sequence-only DNN,0.6935,0.7502,0.7739,0.7619,0.7266
+Structure-only DNN,0.7113,0.7366,0.869,0.7974,0.7452
+Sequence + Structure DNN,0.7306,0.74,0.9063,0.8148,0.7246

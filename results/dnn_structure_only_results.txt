@@ -1,0 +1,11 @@
+BRCA Structure-Only DNN
+=======================
+Accuracy : 0.7113
+Precision: 0.7366
+Recall   : 0.8690
+F1-score : 0.7974
+ROC-AUC  : 0.7452
+
+Confusion Matrix:
+[[229 325]
+ [137 909]]
